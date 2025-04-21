@@ -1,0 +1,29 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0f0f0f;
+    color: #fff;
+}
+
+input.form-control {
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #333;
+}
+
+input.form-control::placeholder {
+    color: #aaa;
+}
+
+.form-check-input:checked {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+.btn-danger {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+.btn-danger:hover {
+    background-color: #cc0000;
+}
